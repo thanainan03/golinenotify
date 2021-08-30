@@ -1,4 +1,4 @@
-package golinenotify
+package main
 
 import (
 	"encoding/json"
