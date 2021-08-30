@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"golinenotify/golinenotify"
 	"log"
+
+	golinenotify "github.com/thanainan03/golinenotify"
 )
 
 func main() {
