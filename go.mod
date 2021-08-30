@@ -1,3 +1,3 @@
-module github.com/thanainan03/golinenotify
+module golinenotify
 
 go 1.16
