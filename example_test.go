@@ -1,13 +1,13 @@
-package example
+package golinenotify_test
 
 import (
 	"fmt"
 	"log"
 
-	golinenotify "github.com/thanainan03/golinenotify"
+	"github.com/thanainan03/golinenotify"
 )
 
-func main() {
+func Example() {
 	url := golinenotify.GetAuthorizeUrl("S36gTcAhUTXAHFBQ2G23t1", "http://localhost:3333/line-notify/callback", "444")
 	fmt.Println(url)
 

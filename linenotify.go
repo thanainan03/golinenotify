@@ -1,4 +1,4 @@
-package linenotify
+package golinenotify
 
 import (
 	"encoding/json"
